@@ -15,5 +15,13 @@
     <h1 class="title">Check Out These Memes</h1>
 
     <img src="{{ memes_image }}" />
+
+    <button onclick="load_next_meme()"><p>Another Meme</p></button>
   </body>
+
+  <script>
+    function load_next_meme() {
+      location.reload();
+    }
+  </script>
 </html>
